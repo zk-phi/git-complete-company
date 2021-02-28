@@ -31,7 +31,6 @@
                         (git-complete--normalize-query (buffer-substring (point-at-bol) (point)))))
                  (buffer-substring (save-excursion (back-to-indentation) (point)) (point))))
     (require-match t)
-    (no-cache t)
     (sorted t)
     (post-completion (git-complete-company--post-completion arg))
     (candidates git-complete-company-whole-line-candidates)))
