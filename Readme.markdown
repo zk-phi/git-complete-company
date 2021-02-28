@@ -31,7 +31,7 @@ To enable these backends, add them to `company-backends` list.
 Note that these backends are much slower than other backends to
 collect and filter completion candidates. So they are (by default)
 configured not to start automatically. When (and only when) you invoke
-company explicitly (with `company-complete` or similar commands),
+company explicitly (with `company-manual-begin` or similar commands),
 these backends start to work.
 
 This behavior can be changed by setting
